@@ -80,6 +80,31 @@ body {
 .team-name {
   margin-bottom: 10px;
 }
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+}
+.social-icon {
+  fill: #afb1b8;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+}
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  fill: #fff;
+}
 /* =======END COMPONENTS======= */
 
 /* =========HEADER========= */
@@ -147,7 +172,7 @@ a.active-page {
 
 /* =========MAIN CONTENT========= */
 
-/* hero */
+/* ---------------hero--------------- */
 
 .hero {
   background-color: #c4c4c4;
@@ -200,7 +225,9 @@ a.active-page {
   cursor: pointer;
 }
 
-/* our-values */
+/* ---------------end hero--------------- */
+
+/* ---------------our-values--------------- */
 
 .our-values {
   padding-top: 94px;
@@ -234,7 +261,9 @@ a.active-page {
   margin-bottom: 30px;
 }
 
-/* our-projects */
+/* ---------------end our-values--------------- */
+
+/* ---------------our-projects--------------- */
 
 .our-projects {
   padding-top: 47px;
@@ -244,8 +273,9 @@ a.active-page {
   margin-top: 30px;
   margin-left: 30px;
 }
+/* ---------------end our-projects--------------- */
 
-/* our-team */
+/* ---------------our-team--------------- */
 
 .our-team {
   background-color: #f5f4fa;
@@ -283,32 +313,9 @@ a.active-page {
   border-radius: 0px 0px 4px 4px;
 }
 
-.social-list {
-  display: flex;
-  justify-content: space-between;
-}
-.social-icon {
-  fill: #afb1b8;
-}
+/* ---------------end our-team--------------- */
 
-.social-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-}
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--accent-color);
-}
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-  fill: #fff;
-}
-
-/* clients */
+/* ---------------clients---------------*/
 
 .clients {
   padding-top: 94px;
@@ -338,6 +345,7 @@ a.active-page {
 .clients-link:focus .clients-icon {
   fill: var(--accent-color);
 }
+/* ---------------end clients---------------*/
 
 /* =========END MAIN CONTENT========= */
 
