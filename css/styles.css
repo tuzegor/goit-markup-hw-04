@@ -328,7 +328,7 @@ a.active-page {
   border-radius: 4px;
 }
 .clients-icon {
-  fill: var(--secondary-color);
+  fill: #afb1b8;
 }
 .clients-link:hover,
 .clients-link:focus {
