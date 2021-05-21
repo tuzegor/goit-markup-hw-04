@@ -458,8 +458,6 @@ a.active-page {
   background: #ffffff;
   margin-top: 30px;
   margin-left: 30px;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .gallery-title {
@@ -480,6 +478,12 @@ a.active-page {
 .gallery-item-box {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+}
+
+.gallery-item:hover,
+.gallery-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* =========END PORTFOLIO PAGE========= */
