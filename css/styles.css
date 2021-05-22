@@ -163,7 +163,9 @@ a.active-page {
   margin-left: auto;
 }
 
-.menu-item:not(:last-child),
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
 .contacts-item:first-child {
   margin-right: 30px;
 }
@@ -391,8 +393,9 @@ a.active-page {
   margin-top: 20px;
 }
 
-.footer-mail {
-  display: inline-block;
+.footer-mail,
+.footer-tel {
+  display: block;
   margin-top: 9px;
 }
 
@@ -441,7 +444,7 @@ a.active-page {
 }
 
 .filter-button:hover,
-.filter-button:active {
+.filter-button:focus {
   background-color: #2196f3;
   color: #fff;
   cursor: pointer;
